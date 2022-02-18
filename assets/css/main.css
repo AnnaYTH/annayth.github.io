@@ -2791,7 +2791,7 @@ input, select, textarea {
 	#header {
 		height: 100vh;
 		position: relative;
-		text-align: center;
+		text-align: center; 
 	}
 
 		#header:after {
@@ -2804,7 +2804,7 @@ input, select, textarea {
 		#header header {
 			color: rgba(255, 255, 255, 0.5);
 			display: inline-block;
-			padding-bottom: 8em;
+			/* padding-bottom: 8em; */
 			vertical-align: middle;
 		}
 
@@ -2834,23 +2834,6 @@ input, select, textarea {
 				color: #ffffff;
 				font-weight: 700;
 				margin: 1.5em 0 0 0;
-			}
-
-		#header .container {
-			background: rgba(255, 255, 255, 0.95);
-			bottom: 0;
-			left: 50%;
-			margin-left: -17.5em;
-			padding: 2.5em;
-			position: absolute;
-		}
-
-			#header .container > :last-child {
-				margin-bottom: 0;
-			}
-
-			#header .container .button {
-				min-width: 12em;
 			}
 
 /* Footer */
